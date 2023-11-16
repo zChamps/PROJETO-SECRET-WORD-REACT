@@ -1,0 +1,66 @@
+.container-midgame{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 150px;
+}
+
+.container-midgame h1{
+    font-size: 50px;
+}
+
+.wordContainer {
+    display: flex;
+    gap: 10px;
+    border: 25px solid white;
+    padding: 35px;
+    
+}
+
+.letter, .blankSquare{
+    font-size: 70px;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+    /* padding-top: 25px; */
+    text-align: center;
+}
+
+.container-baixo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-baixo form{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.container-baixo form input[type="text"]{
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container-baixo form input[type="submit"]{
+    padding: 5px 35px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(14, 96, 247);
+    color: white;
+    border: 3px solid white;
+    border-radius: 45px;
+}
